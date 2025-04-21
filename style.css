@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #dfdede;
+    color: #000000;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  /* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Container */
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+.review-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.review-form input[type="text"],
+.review-form textarea,
+.review-form select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.review-form button {
+  background-color: #222;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.review-form button:hover {
+  background-color: #444;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  background-color: #222;
+  color: #fff;
+}
+
+  nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+  
+  .review-card {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 5px solid #3498db;
+    position: relative;
+  }
+  
+  .movie-header {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    cursor: pointer;
+  }
+  
+  .poster {
+    width: 100px; 
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .review-title {
+    font-size: 1.5rem;
+    color: #2980b9;
+  }
+  
+
+  .movie-content {
+    display: none;
+    margin-top: 15px;
+  }
+  
+  .toggle:checked + label + .movie-content {
+    display: block;
+  }
+  
+
+  .trailer {
+    margin-top: 15px;
+  }
+  
+  footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+  }
+  
